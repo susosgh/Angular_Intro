@@ -1,0 +1,6 @@
+<div class="container-fluid text-center pb-5">
+    <div class="row">
+      <app-card class="col-4" *ngFor="let card of card" [card]="card"></app-card>
+      <p class="card-text">{{ card.text }}</p>
+    </div>
+  </div>

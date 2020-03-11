@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "getting-started-ng5": {
@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -88,7 +88,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "getting-started-ng5"
+    }
+  },
+  "defaultProject": "getting-started-ng5",
+  "cli": {
+    "analytics": "cdd118df-e0fd-464b-99d8-931ff3e4afb0"
+  }
 }
